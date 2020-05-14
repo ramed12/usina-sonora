@@ -1,0 +1,185 @@
+.carousel-news-next , .carousel-news-prev {
+    position: absolute;
+    z-index: 1;
+    top: 9.8625em;
+    bottom: 0;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 15%;
+    color: #fff;
+    text-align: center;
+    left: 32em;
+    height: 46px;
+}
+.carousel-news-next{
+    top:13.9925em
+}
+.count-carousel-princ {
+    font-family: 'Poppins', sans-serif !important;
+    position: absolute;
+    z-index: 10;
+    top: 30.0875em;
+    left: 15.2%;
+    font-size: 1.3048em;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-style: normal !important;
+}
+.carousel-caption-person{
+    font-family: 'Poppins', sans-serif !important;
+    font-size: 4.3839em;
+    font-weight: 600;
+    line-height: 1.1390em;
+    color: #fff !important;
+}
+
+.carousel-news-next-2 {
+    margin-left:9.5%
+}
+.carousel-news-prev-2 , .carousel-news-next-2 {
+    position: absolute;
+    z-index: 3;
+    top: 38.6875em;
+    left: 0;
+    bottom: 0;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 15%;
+    color: #fff;
+    text-align: center;
+    left: 10%;
+    height: 46px;
+}
+.carousel-indicators li{
+    width: 10px !important;
+    height: 10px !important;
+    border: 1px solid #FFF;
+    border-radius: 10px;
+}
+.next-3  {
+    max-width: 84px;
+}
+.previous-3 {
+    max-width: 84px;
+}
+.carousel-caption-person {
+    position: absolute;
+    right: 15%;
+    bottom: 20px;
+    left: 13%;
+    z-index: 99;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: left;
+    margin-left:9.2%;
+}
+.carousel-caption-person{
+    left: 0% !important;
+    right: 4em !important;
+    bottom: 0% !important;
+    top: 3.925em !important;
+}
+
+.drk:after {
+    content:"";
+    display:block;
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    background: rgb(16,49,133);
+    background: linear-gradient(0deg, rgba(16,49,133,0.5578431201582195) 0%, rgba(0,0,0,0.5578431201582195) 30%);
+
+    opacity:0.9;
+}
+
+.Circle_BG {
+    border-style: solid;
+    border-width: 2px;
+    border-color: #ebeaea95;
+    border-radius: 50%;
+    width: 51px;
+    height: 51px;
+}
+.Circle_BG2 a {
+    text-decoration: none;
+}
+.Circle_BG:hover {
+    border-color: #0899ff;
+    text-decoration: none;
+}
+.Circle_BG2 {
+    border-style: solid;
+    border-width: 2px;
+    border-color: #ebeaea95;
+    border-radius: 50%;
+    width: 3.125em;
+    height: 3.125em;
+}
+.Circle_BG2 a {
+    text-decoration: none;
+}
+.Circle_BG2:hover {
+    border-color: #0899ff;
+    text-decoration: none;
+}
+
+.carousel-news-prev a, .carousel-news-prev-2 a , .carousel-news-next a ,.carousel-news-next-2 a {
+    text-decoration: none;
+    color: #FFFF;
+}
+.carousel-news-next:hover, .carousel-news-prev:hover , .carousel-news-prev-2:hover , .carousel-news-next-2:hover {
+    background-color: #0899ff;
+
+}
+@media screen and (min-width: 769px) {
+.carousel-caption {
+   left: 0;
+   right: 0;
+   bottom: 0;
+   padding-top: 1.7em !important;
+   padding-bottom: 3em !important;
+}
+}
+@media screen and (max-width: 768px) {
+    .carousel-caption-person {
+        position: absolute;
+        right: 4%;
+        bottom: 20px;
+        left: 4%;
+        z-index: 99;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        text-align: left;
+        margin-left:1.1%;
+    }
+    .carousel-caption-person{
+        font-family: 'Poppins', sans-serif !important;
+        font-size: 1.3839em;
+        font-weight: 600;
+        line-height: 1.1390em;
+        color: #fff !important;
+        text-align: center;
+    }
+    .carousel-caption-person{
+        left: 8% !important;
+        right: 8% !important;
+        bottom: 0% !important;
+        top: 3.4em !important;
+    }
+    .carousel-caption {
+        left: 0;
+        right: 0;
+        bottom: 0;
+     }
+
+}
